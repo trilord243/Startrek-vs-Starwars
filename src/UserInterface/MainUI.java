@@ -452,7 +452,6 @@ public class MainUI extends javax.swing.JFrame {
         secondQueueStartreck_label.setText("Second Priority:");
         StartreckPanel.add(secondQueueStartreck_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 310, 130, 30));
 
-        secondQueueStartreck.setBackground(new java.awt.Color(255, 255, 255));
         secondQueueStartreck.setColumns(20);
         secondQueueStartreck.setRows(5);
         secondQueueStartreck.setBorder(null);
@@ -460,7 +459,6 @@ public class MainUI extends javax.swing.JFrame {
 
         StartreckPanel.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 340, 260, 50));
 
-        topQueueStartreck.setBackground(new java.awt.Color(255, 255, 255));
         topQueueStartreck.setColumns(20);
         topQueueStartreck.setRows(5);
         topQueueStartreck.setBorder(null);
@@ -480,7 +478,6 @@ public class MainUI extends javax.swing.JFrame {
         supportQueueStartreck_label.setText("Supports:");
         StartreckPanel.add(supportQueueStartreck_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 490, 80, 30));
 
-        thirdQueueStartreck.setBackground(new java.awt.Color(255, 255, 255));
         thirdQueueStartreck.setColumns(20);
         thirdQueueStartreck.setRows(5);
         thirdQueueStartreck.setBorder(null);
@@ -494,7 +491,6 @@ public class MainUI extends javax.swing.JFrame {
         thirdQueueStartreck_label.setText("Third Priority:");
         StartreckPanel.add(thirdQueueStartreck_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 400, 110, 30));
 
-        supportQueueStartreck.setBackground(new java.awt.Color(255, 255, 255));
         supportQueueStartreck.setColumns(20);
         supportQueueStartreck.setRows(5);
         supportQueueStartreck.setBorder(null);
@@ -643,7 +639,6 @@ public class MainUI extends javax.swing.JFrame {
         topQueueStarwars_label.setText("Top Priority:");
         StarwarsPanel.add(topQueueStarwars_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 110, 30));
 
-        secondQueueStarwars.setBackground(new java.awt.Color(255, 255, 255));
         secondQueueStarwars.setColumns(20);
         secondQueueStarwars.setRows(5);
         secondQueueStarwars.setBorder(null);
@@ -651,7 +646,6 @@ public class MainUI extends javax.swing.JFrame {
 
         StarwarsPanel.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 260, 50));
 
-        topQueueStarwars.setBackground(new java.awt.Color(255, 255, 255));
         topQueueStarwars.setColumns(20);
         topQueueStarwars.setRows(5);
         topQueueStarwars.setBorder(null);
@@ -665,7 +659,6 @@ public class MainUI extends javax.swing.JFrame {
         thirdQueueStarwars_label.setText("Third Priority:");
         StarwarsPanel.add(thirdQueueStarwars_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 450, 110, 30));
 
-        thirdQueueStarwars.setBackground(new java.awt.Color(255, 255, 255));
         thirdQueueStarwars.setColumns(20);
         thirdQueueStarwars.setRows(5);
         thirdQueueStarwars.setBorder(null);
@@ -673,7 +666,6 @@ public class MainUI extends javax.swing.JFrame {
 
         StarwarsPanel.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, 260, 50));
 
-        supportQueueStarwars.setBackground(new java.awt.Color(255, 255, 255));
         supportQueueStarwars.setColumns(20);
         supportQueueStarwars.setRows(5);
         supportQueueStarwars.setBorder(null);
@@ -754,6 +746,7 @@ public class MainUI extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MainUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
